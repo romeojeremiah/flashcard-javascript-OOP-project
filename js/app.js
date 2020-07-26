@@ -14,7 +14,7 @@ function eventListeners(){
     //new ui instance
     const ui = new UI();
     //retrieve questions from local storage
-    let data = ui.retrieveLocalStorgage();
+    let data = ui.retrieveLocalStorage();   /* Mispelled Storage. Originally was "Storgage" */
     if (data.length > 0){
         id = (data[(data.length-1)].id)+1;
     } else {
