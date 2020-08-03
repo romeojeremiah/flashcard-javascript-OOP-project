@@ -87,7 +87,7 @@ function eventListeners(){
         });
         data = tempData;
         questionInput.value = tempQuestion[0].title;
-        questionInput.value = tempQuestion[0].answer;
+        answerInput.value = tempQuestion[0].answer;
     }  
     });
 }
